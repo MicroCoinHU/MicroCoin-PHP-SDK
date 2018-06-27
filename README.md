@@ -42,9 +42,10 @@ First you need a MicroCoin Client PHP SDK.
 You can download it from [here](https://github.com/MicroCoinHU/MicroCoin-PHP-SDK/releases), or clone from our [Github](https://github.com/MicroCoinHU/MicroCoin-PHP-SDK) repository.
 ```bash
 git clone https://github.com/MicroCoinHU/MicroCoin-PHP-SDK.git
-# then install PHP dependencies
+# install PHP dependencies
 composer install
-composer require simplito/elliptic-php
+# run example
+php example.php
 ```
 ## Keys and signatures
 MicroCoin works with ECDSA signatures, so you need to work with ECDSA keys and signatures.
