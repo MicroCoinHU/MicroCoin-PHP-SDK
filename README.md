@@ -45,7 +45,7 @@ git clone https://github.com/MicroCoinHU/MicroCoin-PHP-SDK.git
 # install PHP dependencies
 composer install
 # or install without dev dependencies
-composer install
+composer install --no-dev
 # run example
 php example.php
 ```
