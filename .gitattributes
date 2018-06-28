@@ -1,0 +1,6 @@
+/test export-ignore
+/img export-ignore
+/examples export-ignore
+.travis.yml export-ignore
+.php_cs export-ignore
+phpunit.xml.dist export-ignore
