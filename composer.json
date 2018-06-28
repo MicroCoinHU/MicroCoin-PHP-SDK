@@ -38,6 +38,10 @@
     },
     "archive": {
         "exclude": ["/img", "/examples"]
-    }
-
+    },
+    "config": {
+      "preferred-install": {
+          "*": "dist"
+      }
+    },
 }
