@@ -44,6 +44,8 @@ You can download it from [here](https://github.com/MicroCoinHU/MicroCoin-PHP-SDK
 git clone https://github.com/MicroCoinHU/MicroCoin-PHP-SDK.git
 # install PHP dependencies
 composer install
+# or install without dev dependencies
+composer install
 # run example
 php example.php
 ```
