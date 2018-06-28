@@ -38,8 +38,17 @@ After this, the owner of the account will be you, and the old owner will not hav
 * Network connection
 
 ## Download the client SDK
+
 First you need a MicroCoin Client PHP SDK.
+
+You can install with composer
+
+```Shell
+composer require microcoin/microcoin
+```
+
 You can download it from [here](https://github.com/MicroCoinHU/MicroCoin-PHP-SDK/releases), or clone from our [Github](https://github.com/MicroCoinHU/MicroCoin-PHP-SDK) repository.
+
 ```bash
 git clone https://github.com/MicroCoinHU/MicroCoin-PHP-SDK.git
 # install PHP dependencies
@@ -49,6 +58,7 @@ composer install --no-dev
 # run example
 php example.php
 ```
+
 ## Keys and signatures
 MicroCoin works with ECDSA signatures, so you need to work with ECDSA keys and signatures.
 You can use your favorite **ECDSA** package, or use `simplito/elliptic-php`. We are using `simplito/elliptic-php` in our demos.
