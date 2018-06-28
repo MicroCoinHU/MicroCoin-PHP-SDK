@@ -2,7 +2,7 @@
     "name": "MicroCoin/MicroCoin",
     "description": "MicroCoin PHP Client SDK",
     "keywords": [
-	"microcoin"
+        "microcoin",
         "php",
         "sdk",
         "api"
