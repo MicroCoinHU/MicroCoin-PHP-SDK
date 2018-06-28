@@ -1,4 +1,6 @@
 # MicroCoin API
+
+[![Build Status](https://travis-ci.org/MicroCoinHU/MicroCoin-PHP-SDK.svg?branch=master)](https://travis-ci.org/MicroCoinHU/MicroCoin-PHP-SDK) [!GPL-3.0](https://img.shields.io/github/license/MicroCoinHU/MicroCoin-PHP-SDK.svg)](/LICENSE)
 MicroCoin Rider is an API server for the MicroCoin ecosystem.
 It acts as the interface between MicroCoin network and applications that want to access the MicroCoin network.
 It allows you to submit transactions to the network, check the status of accounts, subscribe to transactions, etc.
